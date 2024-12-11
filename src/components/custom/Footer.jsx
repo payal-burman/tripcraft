@@ -12,7 +12,7 @@ const Footer = () => {
               <a href="https://www.linkedin.com/in/payal-burman/" target="_blank" className="text-white hover:text-gray-300">
                 <FaLinkedin size={24} />
               </a>
-              <a href="https://github.com/payal-burman" target="_blank" className="text-white hover:text-gray-300">
+              <a href="https://github.com/payal-burman/" target="_blank" className="text-white hover:text-gray-300">
                 <FaGithub size={24} />
               </a>
               <a href="https://leetcode.com/u/Payal09/" target="_blank" className="text-white hover:text-gray-300">

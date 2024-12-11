@@ -15,9 +15,6 @@ import {
 } from "@/components/ui/dialog";
 import axios from "axios";
 import { FcGoogle } from "react-icons/fc";
-import transparentLogo from "./transparent_logo.png";
-import logout from "./logout.png"
-
 
 
 
@@ -56,17 +53,17 @@ function Header() {
   return (
     <div className="py-3 shadow-sm flex justify-between items-center px-7">
       <a href="/">
-      <img src={transparentLogo} className="h-10 w-full"/>
+      <img src="/transparent_logo.png" className="h-10 w-full"/>
       </a>
       <div>
         {user ? (
           <div className="flex items-center gap-5">
-            <a href="/deploy_react_app_github_pages_vercel/create-trip">
+            <a href="/create-trip">
             <Button className="rounded-full">
               Create Trip
             </Button>
             </a>
-            <a href="/deploy_react_app_github_pages_vercel/my-trips">
+            <a href="/my-trips">
             <Button className="rounded-full">
               My Trips
             </Button>
@@ -82,7 +79,7 @@ function Header() {
                   localStorage.clear();
                   window.location.reload();
                   // navigation('/');
-                }}><img src={logout} className="h-5 w-5"/> Logout</h2>
+                }}><img src="/logout.png" className="h-5 w-5"/> Logout</h2>
               </PopoverContent>
             </Popover>
 

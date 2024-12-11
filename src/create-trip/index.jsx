@@ -94,7 +94,7 @@ function CreateTrip() {
       id: docId,
     });
     setLoading(false);
-    navigate("/deploy_react_app_github_pages_vercel/view-trip/" + docId);
+    navigate("/view-trip/" + docId);
   };
 
   const getUserProfile = (tokenInfo) => {
